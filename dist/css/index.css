@@ -1,1 +1,18 @@
-*{padding:0;margin:0}li{list-style:none}body{background:red}
+*{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+}
+
+body{
+	background:red;
+}
+.test{
+	-webkit-transform:rotate(45deg);
+	        transform:rotate(45deg);
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+}
