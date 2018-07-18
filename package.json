@@ -1300,8 +1300,14 @@
     "_findup-sync@2.0.0@findup-sync": "^2.0.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.24.5",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-concat": "^2.6.1"
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

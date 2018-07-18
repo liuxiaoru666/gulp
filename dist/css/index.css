@@ -1,18 +1,1 @@
-*{
-	padding:0;
-	margin:0;
-}
-li{
-	list-style: none;
-}
-
-body{
-	background:red;
-}
-.test{
-	-webkit-transform:rotate(45deg);
-	        transform:rotate(45deg);
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
-}
+*{padding:0;margin:0}li{list-style:none}body{background:#2e8b57}.test{-webkit-transform:rotate(45deg);transform:rotate(45deg);display:-webkit-box;display:-ms-flexbox;display:flex}
