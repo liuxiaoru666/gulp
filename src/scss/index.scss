@@ -1,4 +1,5 @@
-@import 'common';
+@import  'px2rem.scss';
 header{
-    @include px2rem(height,80)
+    background:blue;
+    height:1.06666rem;
 }
