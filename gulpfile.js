@@ -48,7 +48,7 @@ gulp.task('sass', function () {
     .pipe(notify({
       message:'sass编译完成'
     }))
-    .pipe(gulp.dest('dist/scss'))
+    .pipe(gulp.dest('dist/css'))
     .pipe(reload({ stream: true }))
 });
 //压缩html

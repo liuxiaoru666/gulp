@@ -1,4 +1,4 @@
-$background: red;
-div{
-    background:$background;
+@import 'common';
+header{
+    @include px2rem(height,80)
 }
