@@ -9,7 +9,7 @@ var notify = require('gulp-notify');
 var htmlmin = require('gulp-htmlmin');
 var cssmin = require('gulp-clean-css');
 var sass = require('gulp-sass');
-
+var  babel = require('gulp-babel');
 
 
 // //压缩css,自动处理浏览器前缀
@@ -64,10 +64,13 @@ gulp.task('htmlMin', function () {
 gulp.task('jsMin', function () {
   gulp.src(['src/js/**/*.js','!src/js/asset/*.js'])
     .pipe(concat('all.js'))//合并后的文件名
+    .pipe(babel({
+      presets: ['es2015']
+    }))
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'))
     .pipe(notify({
-      message: 'js合并完成'
+      message: 'js处理完成'
     }))
 });
 //监听
